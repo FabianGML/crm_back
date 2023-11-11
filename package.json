@@ -1,0 +1,42 @@
+{
+  "name": "crm_back",
+  "version": "1.0.0",
+  "description": "crm Code&Change project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FabianGML/crm_back.git"
+  },
+  "keywords": [
+    "crm",
+    "backend",
+    "express",
+    "api"
+  ],
+  "author": "Fabian Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabianGML/crm_back/issues"
+  },
+  "homepage": "https://github.com/FabianGML/crm_back#readme",
+  "dependencies": {
+    "bcrypt": "5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "3.6.3"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  }
+}
